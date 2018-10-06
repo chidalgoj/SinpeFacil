@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sinpe Facil</string>
+    <string name="mabtnTransfer">Transferencias</string>
+    <string name="btnAccountBalance">Consultar Saldo</string>
+    <string name="btnTopUp">Recargar Saldo</string>
+    <string name="btnLastMovements">Ultimos 5 movimientos</string>
+    <string name="btnConfig">Configuracion</string>
+    <string name="lblTransferTitle">Transferencia de Fondos</string>
+
+</resources>
