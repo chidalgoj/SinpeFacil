@@ -26,13 +26,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="openTransferView"
-            android:text="@string/btnTransfer"
+            android:text="@string/lblTransferTitle"
             android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openAccountBalanceView"
             android:text="@string/btnAccountBalance"
             android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
@@ -40,13 +41,15 @@
             android:id="@+id/button9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnToUp"
+            android:onClick="openTopUpView"
+            android:text="@string/btnTopUp"
             android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
         <Button
             android:id="@+id/button10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openLastMovementsView"
             android:text="@string/btnLastMovements"
             android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
@@ -54,6 +57,7 @@
             android:id="@+id/button11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="openConfigView"
             android:text="@string/btnConfig"
             android:textAppearance="@android:style/TextAppearance.Holo.Large" />
     </LinearLayout>

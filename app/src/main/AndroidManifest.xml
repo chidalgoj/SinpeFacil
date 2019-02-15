@@ -24,7 +24,9 @@
                 android:value=".MainActivity" />
         </activity>
         <activity android:name=".AccountBalanceActivity" />
-        <activity android:name=".TopUpActivity"></activity>
+        <activity android:name=".TopUpActivity" />
+        <activity android:name=".LastMovementsActivity" />
+        <activity android:name=".ConfigActivity"></activity>
     </application>
 
 </manifest>
