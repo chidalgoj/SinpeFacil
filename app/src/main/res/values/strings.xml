@@ -6,5 +6,6 @@
     <string name="btnLastMovements">Ultimos 5 movimientos</string>
     <string name="btnConfig">Configuracion</string>
     <string name="lblTransferTitle">Transferencia de Fondos</string>
+    <string name="lblBank">Banco</string>
 
 </resources>
