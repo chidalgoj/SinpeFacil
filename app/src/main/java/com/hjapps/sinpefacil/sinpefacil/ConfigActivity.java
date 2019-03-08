@@ -1,13 +1,24 @@
 package com.hjapps.sinpefacil.sinpefacil;
 
-import android.support.v7.app.AppCompatActivity;
+import android.preference.PreferenceActivity;
+import android.preference.PreferenceFragment;
 import android.os.Bundle;
 
-public class ConfigActivity extends AppCompatActivity {
+public class ConfigActivity extends PreferenceActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_config);
+        getFragmentManager().beginTransaction().replace(android.R.id.content, new ConfigPreferenceFragment()).commit();
+    }
+
+    public static class ConfigPreferenceFragment extends PreferenceFragment
+    {
+        @Override
+        public void onCreate(final Bundle savedInstanceState)
+        {
+            super.onCreate(savedInstanceState);
+            addPreferencesFromResource(R.xml.preferences);
+        }
     }
 }

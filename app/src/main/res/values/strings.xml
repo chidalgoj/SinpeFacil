@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">Sinpe Facil</string>
-    <string name="mabtnTransfer">Transferencias</string>
-    <string name="btnAccountBalance">Consultar Saldo</string>
-    <string name="btnTopUp">Recargar Saldo</string>
-    <string name="btnLastMovements">Ultimos 5 movimientos</string>
-    <string name="btnConfig">Configuracion</string>
-    <string name="lblTransferTitle">Transferencia de Fondos</string>
+    <string name="main_btnTransfer">Transferencias</string>
+    <string name="main_btnAccountBalance">Consultar Saldo</string>
+    <string name="main_btnTopUp">Recargar Saldo</string>
+    <string name="main_btnLastMovements">Ultimos 5 movimientos</string>
+    <string name="main_btnConfig">Configuracion</string>
+    <string name="main_lblTransferTitle">Transferencia de Fondos</string>
     <string name="lblBank">Banco</string>
-
+    <string name="configView_sinpeNumberTitle">Número SINPE Móvil</string>
+    <string name="configView_sinpeNumberSummary">Número de teléfono del banco para envio de los mensajes SMS</string>
 </resources>
