@@ -1,4 +1,4 @@
-package com.hjapps.sinpefacil.sinpefacil;
+package com.hjapps.sinpefacil.activities;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.hjapps.sinpefacil.sinpefacil", appContext.getPackageName());
+        assertEquals("com.hjapps.activities.activities", appContext.getPackageName());
     }
 }

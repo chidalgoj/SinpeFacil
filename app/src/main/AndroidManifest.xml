@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hjapps.sinpefacil.sinpefacil">
-
+    package="com.hjapps.sinpefacil.activities">
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.hjapps.sinpefacil.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,36 +19,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TransferActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.hjapps.sinpefacil.activities.TransferActivity"
+            android:parentActivityName="com.hjapps.sinpefacil.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.hjapps.sinpefacil.activities.MainActivity" />
         </activity>
         <activity
-            android:name=".AccountBalanceActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.hjapps.sinpefacil.activities.AccountBalanceActivity"
+            android:parentActivityName="com.hjapps.sinpefacil.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.hjapps.sinpefacil.activities.MainActivity" />
         </activity>
-        <activity android:name=".TopUpActivity"
-            android:parentActivityName=".MainActivity">
+        <activity android:name="com.hjapps.sinpefacil.activities.TopUpActivity"
+            android:parentActivityName="com.hjapps.sinpefacil.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.hjapps.sinpefacil.activities.MainActivity" />
         </activity>
-        <activity android:name=".LastMovementsActivity"
-            android:parentActivityName=".MainActivity">
+        <activity android:name="com.hjapps.sinpefacil.activities.LastMovementsActivity"
+            android:parentActivityName="com.hjapps.sinpefacil.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.hjapps.sinpefacil.activities.MainActivity" />
         </activity>
-        <activity android:name=".ConfigActivity"
-            android:parentActivityName=".MainActivity">
+        <activity android:name="com.hjapps.sinpefacil.activities.ConfigActivity"
+            android:parentActivityName="com.hjapps.sinpefacil.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.hjapps.sinpefacil.activities.MainActivity" />
         </activity>
     </application>
 

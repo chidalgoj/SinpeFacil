@@ -1,4 +1,4 @@
-package com.hjapps.sinpefacil.sinpefacil;
+package com.hjapps.sinpefacil.activities;
 
 import org.junit.Test;
 

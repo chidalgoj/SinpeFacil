@@ -1,4 +1,4 @@
-package com.hjapps.sinpefacil.sinpefacil;
+package com.hjapps.sinpefacil.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
